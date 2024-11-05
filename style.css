@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    background-image: url("background.jpeg");
+    background-size: contain;
+    backdrop-filter: blur(3px);
+}
+#container {
+    height: 97vh;
+    width: 99vw;
+    color: rgb(235, 14, 14);
+    font-size: 1.4em;
+}
+
+.child {
+    height: 30%;
+    width: 50%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span {
+    font-size: 2em;
+}
+
+button {
+    height: 50%;
+    width: 13%;
+    border-radius: 50%;
+    background-color: black;
+    border: 3px solid rgb(148, 18, 18);
+    box-shadow: 3px 2px 10px red, 
+                0px -1px 10px red inset;
+    opacity: 0.9;
+    color: rgb(235, 14, 14);
+    font-size: 1.4em;
+    margin: 0 4% 0 2%;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+#laps{
+    display: block;
+}
+
+.lapDiv{
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-between;  
+    margin-bottom: 2%;   
+    width: 100%;
+    border-bottom: 2px solid red;
+}
